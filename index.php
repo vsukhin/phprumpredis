@@ -22,10 +22,7 @@ running on a
          "host" => "redis",
          "port" => 6379
       ));
-
-      echo "Successfully connected to Redis";
-   }
-   catch (Exception $e) {
+   } catch (Exception $e) {
       echo "Couldn't connected to Redis";  
       die($e->getMessage());
    }
