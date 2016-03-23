@@ -17,7 +17,7 @@ running on a
 
    try {
       // This connection is for a remote server
-      $redis = new PredisClient(array(
+      $redis = new Predis\Client(array(
          "scheme" => "tcp",
          "host" => "redis",
          "port" => 6379
