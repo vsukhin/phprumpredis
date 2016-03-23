@@ -14,7 +14,6 @@ running on a
 <br>
 <?php
    require "predis/autoload.php";
-   PredisAutoloader::register();
 
    try {
       // This connection is for a remote server
