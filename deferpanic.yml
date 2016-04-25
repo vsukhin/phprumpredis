@@ -1,0 +1,11 @@
+version: 1
+
+scripts: 
+ - name: install curl
+   command: apt-get install -y curl
+ - name: install php
+   command: apt-get install -y php5-common php5-cli
+ - name: get composer
+   command: curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+ - name: install dependencies
+   command: composer install --no-interaction
