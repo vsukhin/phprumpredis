@@ -13,7 +13,7 @@ running on a
 <a href="http://rumpkernel.org">rump kernel</a>...
 <br>
 <?php
-   require "predis/autoload.php";
+   require __DIR__ . '/vendor/autoload.php';
 
    try {
       // This connection is for a remote server
