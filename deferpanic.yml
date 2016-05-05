@@ -1,6 +1,8 @@
 version: 1
 
 scripts: 
+ - name: refresh
+   command: apt-get update -y
  - name: install curl
    command: apt-get install -y curl
  - name: install php
