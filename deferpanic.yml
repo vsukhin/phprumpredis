@@ -2,7 +2,7 @@ version: 1
 
 scripts: 
  - name: hash clearing
-   command:  rm -rf /var/lib/apt/lists/
+   command:  rm -rf /var/lib/apt/lists/*
  - name: refresh
    command: apt-get update -y
  - name: install curl
